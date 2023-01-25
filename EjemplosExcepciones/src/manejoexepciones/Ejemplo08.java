@@ -23,11 +23,11 @@ public class Ejemplo08 {
             int valor2 = entrada.nextInt(); // se espera un valor entero
             int resultado = valor1 / valor2;
             double resultado2 = (double)resultado;
-            System.out.printf("Resultado %.2f", resultado2);
+            System.out.printf("Resultado %.2f \n", resultado2);
         }
-        catch(Exception e){
+        catch(Exception e){ // con esto no se importa niguna expection
             
-            System.out.printf(" Lo sentimos hay un error de tipo %s\n", e);
+            System.out.printf("Lo sentimos hay un error de tipo %s\n", e);
         
         }
                

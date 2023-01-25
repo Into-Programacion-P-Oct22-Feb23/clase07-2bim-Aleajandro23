@@ -1,4 +1,4 @@
-/*
+12/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -36,7 +36,7 @@ public class Ejemplo07 {
             System.out.printf("De tipo %s\n", arithmeticException);
         
         }
-        catch(Exception e){
+        catch(Exception e){ // exception el global de todos los execptions jaja :D 
             
             System.out.printf(" Lo sentimos hay un error de tipo %s\n", e);
         

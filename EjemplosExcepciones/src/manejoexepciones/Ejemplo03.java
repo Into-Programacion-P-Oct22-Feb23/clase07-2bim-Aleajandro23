@@ -20,7 +20,7 @@ public class Ejemplo03 {
             System.out.printf("Resultado %d", resultado);
             
         }
-        catch(ArithmeticException arithmeticException){
+        catch(ArithmeticException arithmeticException){ // para atrapar la exception (atributo por defecto)
             
             System.out.println("Lo sentimos hay un error");
             System.out.printf("De tipo %s\n", arithmeticException);

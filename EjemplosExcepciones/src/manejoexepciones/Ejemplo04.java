@@ -25,13 +25,26 @@ public class Ejemplo04 {
             int resultado = valor1 / valor2;
 
             System.out.printf("Resultado %d", resultado);
-        } catch (InputMismatchException inputMismatchException) {
+        } catch (InputMismatchException input) {
 
             System.out.printf("Existe un error de tipo %s\n",
-                    inputMismatchException);
+                    input);
         }
-        
+          catch (ArithmeticException arithmeticException) {
+
+           System.out.printf("Existe un error de tipo %s\n",
+                 arithmeticException);
+       }
         System.out.println("Continuamos");
 
     }
 }
+
+
+// ENTRA EN EL EXAMEEEEEEEEN 
+// ENTRA EN EL EXAMEEEEEEEEN 
+// ENTRA EN EL EXAMEEEEEEEEN 
+// ENTRA EN EL EXAMEEEEEEEEN 
+// ENTRA EN EL EXAMEEEEEEEEN 
+// ENTRA EN EL EXAMEEEEEEEEN 
+// ENTRA EN EL EXAMEEEEEEEEN 
