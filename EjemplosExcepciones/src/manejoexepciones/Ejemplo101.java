@@ -22,7 +22,7 @@ public class Ejemplo101 {
             int valor1 = entrada.nextInt();
             System.out.println("Ingrese valor 2 a operar: ");
             int valor2 = entrada.nextInt();
-            if (valor1 == 10 || valor1 == 20 || valor1 == 30 && valor2 == 2 || valor2 == 4 || valor2== 14){
+            if (valor1 == 10 || valor1 == 20 || valor1 == 30  || valor2 == 2 || valor2 == 4 || valor2== 14){
                throw new Exception("DATOS INCORRECTOS SR >:D");
             }
             
